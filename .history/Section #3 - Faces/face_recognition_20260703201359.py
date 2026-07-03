@@ -5,12 +5,6 @@ import cv2 as cv
 
 haar_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-if haar_cascade.empty():
-    print("Error: Haar Cascade file not loaded")
-else:
-    print("Cascade loaded successfully")
-
-
 people = ['Ben Afflek', 'Elton John', 'Jerry Seinfield', 'Madonna', 'Mindy Kaling']
 # features = np.load('features.npy', allow_pickle=True)
 # labels = np.load('labels.npy')
