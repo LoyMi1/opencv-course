@@ -3,15 +3,15 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img = cv.imread('../Resources/Photos/park.jpg')
+img = cv.imread('../Resources/Photos/mems1.jpg')
 cv.imshow('Park', img)
 
 # plt.imshow(img)
 # plt.show()
 
 # BGR to Grayscale
-gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-cv.imshow('Gray', gray)
+red = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+cv.imshow('Red', red)
 
 # BGR to HSV
 hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)

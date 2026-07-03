@@ -19,7 +19,7 @@ cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thicknes
 cv.imshow('Circle', blank)
 
 # 4. Draw a line
-cv.line(blank, (100,250), (300,400), (255,255,255), thickness=3)
+cv.line(blank, (100,250), (350,400), (255,255,255), thickness=3)
 cv.imshow('Line', blank)
 
 # 5. Write text
